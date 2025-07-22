@@ -1,0 +1,28 @@
+prompts_file: "trainscripts/textsliders/data/prompts.yaml"
+pretrained_model:
+  name_or_path: "stabilityai/stable-diffusion-2"
+  v2: true
+  v_pred: true
+network:
+  type: "c3lier"
+  rank: 4
+  alpha: 1.0
+  training_method: "noxattn"
+train:
+  precision: "bfloat16"
+  noise_scheduler: "ddim"
+  iterations: 400
+  lr: 0.0002
+  optimizer: "AdamW"
+  lr_scheduler: "constant"
+  max_denoising_steps: 50
+save:
+  name: "temp"
+  path: "results/sliders"
+  per_steps: 100
+  precision: "bfloat16"
+logging:
+  use_wandb: true
+  verbose: true
+other:
+  use_xformers: true

@@ -1,0 +1,4 @@
+benchmarking/results/*
+generation/encoder_root_imagenet/*
+
+*.pyc
