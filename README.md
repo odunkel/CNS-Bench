@@ -12,13 +12,13 @@
 <div align="center">
 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://genintel.github.io/CNS)
-[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)]()
+[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2507.17651)
 [![Data](https://img.shields.io/badge/Data-Available-green)](https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.MAGNKP)
 
 </div>
 
 
-Code for **CNS-Bench** for training of LoRA shifting sliders (generation), dataset preparation (evaluation), and benchmarking.
+Code for **CNS-Bench** for benchmarking, dataset preparation (evaluation), and training of LoRA shifting sliders (generation).
 - [Benchmarking](#benchmarking)
 - [Evaluation](#evaluation)
 - [Generation](#generation)
@@ -158,4 +158,3 @@ If you find our work useful, please consider giving a star ⭐ and a citation.
 
 ## 🙏 Acknowledgement
 Our work heavily relies on components of [Concept Sliders](https://github.com/rohitgandikota/sliders), [Dataset Interfaces](https://github.com/MadryLab/dataset-interfaces), and [easyrobust](https://github.com/alibaba/easyrobust). We thank them for open-sourcing their works.
-
