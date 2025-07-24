@@ -12,7 +12,7 @@
 <div align="center">
 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://genintel.github.io/CNS)
-[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2507.17651)
+[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/pdf/2507.17651)
 [![Data](https://img.shields.io/badge/Data-Available-green)](https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.MAGNKP)
 
 </div>
